@@ -9,7 +9,7 @@ div {
     max-width: 90%;
     height: 200px;
     border-radius: 20px;
-    background: linear-gradient(-45deg, violet, Indigo, blue, green, yellow, orange, red);
+    background: linear-gradient(-45deg, violet, Indigo, blue, green, orange, red);
     background-size: 300% 300%;
     position: relative;
     animation: headAnimation 20s ease-in-out infinite;
