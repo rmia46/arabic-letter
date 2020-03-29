@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    font-family: 'Ubuntu', Verdana, Arial, sans-serif;
+    background-color: black;
+    color: white; 
+}
+div {
+    background-attachment: fixed;
+    max-width: 90%;
+    height: 200px;
+    border-radius: 20px;
+    background: linear-gradient(-45deg, violet, Indigo, blue, green, yellow, orange, red);
+    background-size: 300% 300%;
+    position: relative;
+    animation: headAnimation 20s ease-in-out infinite;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes headAnimation {
+    0% {background-position: 0 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0 50%;}
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+div#title {
+    background: none;
+    height: 100%;
+    padding-bottom: 20px;;
+}
+div#title h1 {
+    font-size: 35px;
+    margin-top: 10px;
+}
+p {
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+input {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+input:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: 0px 12px 12px rgba(0,0,0,0.3);
+}
+input:active {
+    transform: scale(0.9);
+    outline: none;
+}
+input:focus {
+    outline: 0;
+}
+footer {
+    padding-top: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    color: grey;
+}
